@@ -1,0 +1,28 @@
+.noteitem{
+    width: 300px;
+    background-color: grey;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+p{
+    font-size: 22px;
+
+}
+span{
+    font-size: 20px;
+}
+.buttons{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+

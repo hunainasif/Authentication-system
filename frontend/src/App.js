@@ -10,6 +10,7 @@ import Register from "./pages/register/Register";
 import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Notes from "./pages/notes/Notes";
+ 
 function App() {
 
   const Layout=()=>{
@@ -59,7 +60,10 @@ function App() {
   ])
   return (
     <div className="App">
+      
+
        <RouterProvider router={router}/>
+       
     </div>
   );
 }

@@ -8,6 +8,7 @@ connecToDb()
 import authRoute from "./routes/auth.route.js"
 import userRoute from "./routes/users.route.js"
 import notesRoute from "./routes/notes.route.js"
+
 app.use(express.json())
 app.use(cors())
 
